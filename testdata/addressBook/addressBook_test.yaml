@@ -1,0 +1,13 @@
+test_get_member:
+  - ['wanghao01']
+  - ['wanghao02']
+
+test_create_member:
+  - ['wanghao02', '王2', '13212102415', 1]
+
+test_update_member:
+  - ['wanghao01', '王001', '13215241524']
+
+
+test_delete_member:
+  - ['wanghao02', '王2', '13212102415', 1]

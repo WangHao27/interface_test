@@ -1,0 +1,14 @@
+2021-12-24 10:11:19,196 | INFO | : 读取成员信息 >>>>>
+2021-12-24 10:11:19,197 | INFO | : *********************************request details*********************************
+2021-12-24 10:11:19,497 | INFO | : Method    ：GET
+2021-12-24 10:11:19,497 | INFO | : URL       ：https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token=qsAV2twETNjq_qJcYg1XAa-1uT3CiItSQcHXPEhAYX2eRPd4QMHUFAsOCbUe1N2JjnNUJVz4wPHMOuMyGTYrGq7AOY-Db4vC2NEE8h-BTX4c1mTh5SoiME32zgjUB4IIEQvPqpO2Uv7v7Kk3BSgiMLkK_dMok3HEKHf-vhjbrwdY4ZVpMMwASKDbkrFM3qBhh-zycawxKu3ufCBmOlwtWw&userid=wanghao02
+2021-12-24 10:11:19,497 | INFO | : Params    ：{'userid': ['wanghao02']}
+2021-12-24 10:11:19,498 | INFO | : Headers   : {'Server': 'nginx', 'Date': 'Fri, 24 Dec 2021 02:11:18 GMT', 'Content-Type': 'application/json; charset=UTF-8', 'Content-Length': '432', 'Connection': 'keep-alive', 'Error-Code': '0', 'Error-Msg': 'ok'} 
+
+2021-12-24 10:11:19,498 | INFO | : *********************************response details*********************************
+2021-12-24 10:11:19,498 | INFO | : status_code: 200
+2021-12-24 10:11:19,498 | INFO | : Response   : {'errcode': 0, 'errmsg': 'ok', 'userid': 'wanghao02', 'name': '王2', 'department': [1], 'position': '', 'mobile': '13212102415', 'gender': '0', 'email': '', 'avatar': '', 'status': 4, 'isleader': 0, 'extattr': {'attrs': []}, 'telephone': '', 'enable': 1, 'hide_mobile': 0, 'order': [0], 'main_department': 1, 'qr_code': 'https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vc3158c44f71779460', 'alias': '', 'is_leader_in_dept': [0], 'thumb_avatar': '', 'direct_leader': []} 
+
+2021-12-24 10:11:19,498 | INFO | : assert userid equal wanghao02 ==> pass
+2021-12-24 10:11:19,499 | INFO | : ========================================End Test======================================== 
+

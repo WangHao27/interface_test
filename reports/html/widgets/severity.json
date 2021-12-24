@@ -1,0 +1,31 @@
+[ {
+  "uid" : "48af9e93491d9fae",
+  "name" : "test_get_member[user_id0]",
+  "time" : {
+    "start" : 1640311878653,
+    "stop" : 1640311878915,
+    "duration" : 262
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68fd82c9fa7506e8",
+  "name" : "test_update_member[wanghao01-王001-13215241524]",
+  "time" : {
+    "start" : 1640311879711,
+    "stop" : 1640311880314,
+    "duration" : 603
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12a60c9ac5e18245",
+  "name" : "test_get_member[user_id1]",
+  "time" : {
+    "start" : 1640311879197,
+    "stop" : 1640311879500,
+    "duration" : 303
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

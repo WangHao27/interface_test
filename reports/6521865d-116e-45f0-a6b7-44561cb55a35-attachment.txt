@@ -1,0 +1,14 @@
+INFO     root:testBaseCase.py:29 ======================================Start TestCase======================================
+INFO     root:memberManagement.py:37 读取成员信息 >>>>>
+INFO     root:baseApi.py:52 *********************************request details*********************************
+INFO     root:baseApi.py:57 Method    ：GET
+INFO     root:baseApi.py:65 URL       ：https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token=qsAV2twETNjq_qJcYg1XAa-1uT3CiItSQcHXPEhAYX2eRPd4QMHUFAsOCbUe1N2JjnNUJVz4wPHMOuMyGTYrGq7AOY-Db4vC2NEE8h-BTX4c1mTh5SoiME32zgjUB4IIEQvPqpO2Uv7v7Kk3BSgiMLkK_dMok3HEKHf-vhjbrwdY4ZVpMMwASKDbkrFM3qBhh-zycawxKu3ufCBmOlwtWw&userid=wanghao01
+INFO     root:baseApi.py:66 Params    ：{'userid': ['wanghao01']}
+INFO     root:baseApi.py:67 Headers   : {'Server': 'nginx', 'Date': 'Fri, 24 Dec 2021 02:07:02 GMT', 'Content-Type': 'application/json; charset=UTF-8', 'Content-Length': '511', 'Connection': 'keep-alive', 'Error-Code': '0', 'Error-Msg': 'ok'} 
+
+INFO     root:baseApi.py:75 *********************************response details*********************************
+INFO     root:baseApi.py:76 status_code: 200
+INFO     root:baseApi.py:78 Response   : {'errcode': 0, 'errmsg': 'ok', 'userid': 'wanghao01', 'name': '王001', 'department': [1], 'position': '', 'mobile': '13215241524', 'gender': '1', 'email': '', 'avatar': '', 'status': 4, 'isleader': 0, 'extattr': {'attrs': []}, 'telephone': '', 'enable': 1, 'hide_mobile': 0, 'order': [0], 'external_profile': {'external_attr': [], 'external_corp_name': ''}, 'main_department': 1, 'qr_code': 'https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vc546bd61ac143cf26', 'alias': '', 'is_leader_in_dept': [0], 'address': '', 'thumb_avatar': '', 'direct_leader': []} 
+
+INFO     root:assertUtils.py:34 assert userid equal wanghao01 ==> pass
+INFO     root:testBaseCase.py:36 ========================================End Test========================================

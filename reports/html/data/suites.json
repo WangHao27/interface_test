@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase.addressBook",
+    "children" : [ {
+      "name" : "addressBook_test",
+      "children" : [ {
+        "name" : "TestAddress",
+        "children" : [ {
+          "name" : "test_get_member[user_id0]",
+          "uid" : "48af9e93491d9fae",
+          "parentUid" : "1c94f9385f649153cc8125305b840de2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1640311878653,
+            "stop" : 1640311878915,
+            "duration" : 262
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "['wanghao01']" ]
+        }, {
+          "name" : "test_get_member[user_id1]",
+          "uid" : "12a60c9ac5e18245",
+          "parentUid" : "1c94f9385f649153cc8125305b840de2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1640311879197,
+            "stop" : 1640311879500,
+            "duration" : 303
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "['wanghao02']" ]
+        }, {
+          "name" : "test_update_member[wanghao01-王001-13215241524]",
+          "uid" : "68fd82c9fa7506e8",
+          "parentUid" : "1c94f9385f649153cc8125305b840de2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1640311879711,
+            "stop" : 1640311880314,
+            "duration" : 603
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "'13215241524'", "'王001'", "'wanghao01'" ]
+        } ],
+        "uid" : "1c94f9385f649153cc8125305b840de2"
+      } ],
+      "uid" : "fb0372ceb6ae15fc49ff43e354c1d1e7"
+    } ],
+    "uid" : "e0b5ddf2eeca31ce2fcd680e97258f5d"
+  } ]
+}

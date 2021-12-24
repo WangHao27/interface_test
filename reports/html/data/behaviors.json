@@ -1,0 +1,56 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "成员管理模块接口测试",
+    "children" : [ {
+      "name" : "获取成员信息测试用例",
+      "children" : [ {
+        "name" : "test_get_member[user_id0]",
+        "uid" : "48af9e93491d9fae",
+        "parentUid" : "4e43bc5f8c474b72471bcd9f49a2fe30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640311878653,
+          "stop" : 1640311878915,
+          "duration" : 262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['wanghao01']" ]
+      }, {
+        "name" : "test_get_member[user_id1]",
+        "uid" : "12a60c9ac5e18245",
+        "parentUid" : "4e43bc5f8c474b72471bcd9f49a2fe30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640311879197,
+          "stop" : 1640311879500,
+          "duration" : 303
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['wanghao02']" ]
+      } ],
+      "uid" : "4e43bc5f8c474b72471bcd9f49a2fe30"
+    }, {
+      "name" : "修改成员信息测试用例",
+      "children" : [ {
+        "name" : "test_update_member[wanghao01-王001-13215241524]",
+        "uid" : "68fd82c9fa7506e8",
+        "parentUid" : "85846db7d3a132bcca000972a3fcec65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640311879711,
+          "stop" : 1640311880314,
+          "duration" : 603
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'13215241524'", "'王001'", "'wanghao01'" ]
+      } ],
+      "uid" : "85846db7d3a132bcca000972a3fcec65"
+    } ],
+    "uid" : "c439c00842685f1988d6ad729c1b45cc"
+  } ]
+}

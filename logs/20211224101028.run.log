@@ -1,0 +1,17 @@
+2021-12-24 10:10:29,295 | INFO | : ======================================Start TestCase======================================
+2021-12-24 10:10:29,555 | INFO | : 更新成员信息 >>>>>
+2021-12-24 10:10:29,555 | INFO | : *********************************request details*********************************
+2021-12-24 10:10:30,196 | INFO | : Method    ：POST
+2021-12-24 10:10:30,197 | INFO | : URL       ：https://qyapi.weixin.qq.com/cgi-bin/user/update?access_token=qsAV2twETNjq_qJcYg1XAa-1uT3CiItSQcHXPEhAYX2eRPd4QMHUFAsOCbUe1N2JjnNUJVz4wPHMOuMyGTYrGq7AOY-Db4vC2NEE8h-BTX4c1mTh5SoiME32zgjUB4IIEQvPqpO2Uv7v7Kk3BSgiMLkK_dMok3HEKHf-vhjbrwdY4ZVpMMwASKDbkrFM3qBhh-zycawxKu3ufCBmOlwtWw
+2021-12-24 10:10:30,200 | INFO | : Params    ：{'userid': 'wanghao01', 'name': '王001', 'mobile': '13215241524'}
+2021-12-24 10:10:30,200 | INFO | : Headers   : {'Server': 'nginx', 'Date': 'Fri, 24 Dec 2021 02:10:29 GMT', 'Content-Type': 'application/json; charset=UTF-8', 'Content-Length': '32', 'Connection': 'keep-alive', 'Error-Code': '0', 'Error-Msg': 'updated'} 
+
+2021-12-24 10:10:30,200 | INFO | : *********************************response details*********************************
+2021-12-24 10:10:30,200 | INFO | : status_code: 200
+2021-12-24 10:10:30,201 | INFO | : Response   : {'errcode': 0, 'errmsg': 'updated'} 
+
+2021-12-24 10:10:30,201 | INFO | : assert errcode equal 0 ==> pass
+2021-12-24 10:10:30,202 | INFO | : ========================================End Test======================================== 
+
+2021-12-24 10:10:30,202 | INFO | : ======================================End TestCase====================================== 
+

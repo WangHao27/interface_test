@@ -1,0 +1,151 @@
+{
+  "uid" : "d775243a89c5cccf",
+  "name" : "test_get_member[user_id0]",
+  "fullName" : "testcase.addressBook.addressBook_test.TestAddress#test_get_member",
+  "historyId" : "366ea07a0bfe0ec3758673e9d9e3b8bd",
+  "time" : {
+    "start" : 1640311623369,
+    "stop" : 1640311623786,
+    "duration" : 417
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestAddress",
+    "time" : {
+      "start" : 1640311623091,
+      "stop" : 1640311623092,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取应用凭证",
+      "time" : {
+        "start" : 1640311623094,
+        "stop" : 1640311623368,
+        "duration" : 274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "corpsecret",
+        "value" : "'JaRoi9a-ev2oHPfTD6wlGcaz_UlKlGrG_ASE2gbxwt0'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "读取成员信息",
+      "time" : {
+        "start" : 1640311623369,
+        "stop" : 1640311623785,
+        "duration" : 416
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user_id",
+        "value" : "['wanghao01']"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "97d566dd54bc1af1",
+      "name" : "log",
+      "source" : "97d566dd54bc1af1.txt",
+      "type" : "text/plain",
+      "size" : 1940
+    }, {
+      "uid" : "7a2f9d1bc4567c44",
+      "name" : "stderr",
+      "source" : "7a2f9d1bc4567c44.txt",
+      "type" : "text/plain",
+      "size" : 2004
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestAddress::0",
+    "time" : {
+      "start" : 1640311625572,
+      "stop" : 1640311625572,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取成员信息测试用例"
+  }, {
+    "name" : "feature",
+    "value" : "成员管理模块接口测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.addressBook"
+  }, {
+    "name" : "suite",
+    "value" : "addressBook_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddress"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-6KHBA40C"
+  }, {
+    "name" : "thread",
+    "value" : "8068-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.addressBook.addressBook_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "user_id",
+    "value" : "['wanghao01']"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d775243a89c5cccf.json",
+  "parameterValues" : [ "['wanghao01']" ]
+}

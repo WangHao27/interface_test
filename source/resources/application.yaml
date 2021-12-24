@@ -1,0 +1,11 @@
+api:
+  base_url: https://qyapi.weixin.qq.com/cgi-bin
+  host:
+
+# 企业配置
+enterprise:
+  # 企业ID
+  corpId: ww171b48fba33d3210
+  # 小程序的凭证密钥
+  applets_key:
+    address_book: JaRoi9a-ev2oHPfTD6wlGcaz_UlKlGrG_ASE2gbxwt0

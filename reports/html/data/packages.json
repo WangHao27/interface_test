@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.addressBook.addressBook_test",
+    "children" : [ {
+      "name" : "test_get_member[user_id0]",
+      "uid" : "48af9e93491d9fae",
+      "parentUid" : "b3a9edf0f5130378c983f7a99d03d88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640311878653,
+        "stop" : 1640311878915,
+        "duration" : 262
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['wanghao01']" ]
+    }, {
+      "name" : "test_get_member[user_id1]",
+      "uid" : "12a60c9ac5e18245",
+      "parentUid" : "b3a9edf0f5130378c983f7a99d03d88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640311879197,
+        "stop" : 1640311879500,
+        "duration" : 303
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "['wanghao02']" ]
+    }, {
+      "name" : "test_update_member[wanghao01-王001-13215241524]",
+      "uid" : "68fd82c9fa7506e8",
+      "parentUid" : "b3a9edf0f5130378c983f7a99d03d88d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640311879711,
+        "stop" : 1640311880314,
+        "duration" : 603
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'13215241524'", "'王001'", "'wanghao01'" ]
+    } ],
+    "uid" : "testcase.addressBook.addressBook_test"
+  } ]
+}
