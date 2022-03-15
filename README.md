@@ -15,7 +15,7 @@
 api文件夹用于存放所有需要测试的接口，按照功能模块划分，这里是成员管理接口：addressBook\memberManagement.py
 
 #### 通用工具：interface_test\source\main\utils
-utils用于存放通用工具：\n
+utils用于存放通用工具：
 FileUtils：常用文件的读取与写入封装
 Logger：日志输出格式封装
 RedisUtils：接口运行中的临时数据存入Redis与从Redis中获取数据方法封装
